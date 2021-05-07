@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<criterions>
+  <criterion>
+    <function>matrix</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
+  <criterion>
+    <function>spmatrix</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
+  <criterion>
+    <function>mul</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
+</criterions>
