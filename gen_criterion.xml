@@ -35,4 +35,19 @@
     <return>False</return>
     <local>11111111</local>
   </criterion>
+  <criterion>
+    <function>sdp</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
+  <criterion>
+    <function>lp</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
+  <criterion>
+    <function>ilp</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
 </criterions>
