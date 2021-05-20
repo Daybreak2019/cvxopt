@@ -50,4 +50,29 @@
     <return>False</return>
     <local>11111111</local>
   </criterion>
+  <criterion>
+    <function>setseed</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
+  <criterion>
+    <function>max</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
+  <criterion>
+    <function>min</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
+  <criterion>
+    <function>div</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
+  <criterion>
+    <function>div</function>
+    <return>False</return>
+    <local>11111111</local>
+  </criterion>
 </criterions>
