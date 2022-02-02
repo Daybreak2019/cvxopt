@@ -5,6 +5,6 @@
      return: consider the call-site of the function as source (True, False),
      local: consider the definition of a local variable as source (string or None)
 -->  
-<criterion> <function>GetF</function> <return>True</return> <local>None</local> </criterion>
+<criterion> <function>Compute</function> <return>False</return> <local>1111111</local> </criterion>
 
 </criterions>
