@@ -601,8 +601,6 @@ static PyObject* spsolve(PyObject *self, PyObject *args,
     if (!PyCapsule_CheckExact(F) || !(descr = PyCapsule_GetName(F)))
         err_CO("F");
 
-    printf ("Wen -> PY_MAJOR_VERSION >= 3 , descr = %s\r\n", descr);
-    
     if (strncmp(descr, "CHOLMOD FACTOR", 14))
         PY_ERR_TYPE("F is not a CHOLMOD factor");
     L = (cholmod_factor *) PyCapsule_GetPointer(F, descr);
